@@ -71,6 +71,7 @@ border: 3px solid black;
   transform: rotate(90deg);
   float:bottom;
   margin:20px 20px 20px 20px;
+  max-width: 100%
 }
 
 body {
@@ -78,7 +79,7 @@ body {
 }
 
 @media Screen and (max-width: 480px) {
-  body {
+  .btn {
     background-color: red;
   }
 }
